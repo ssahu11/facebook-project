@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="ToolsQA(failed)">
+    <parameter name="password" value="Workhard@19"/>
+    <parameter name="chromeExeFilePath" value="E:\downloads\chromedriver_win32\chromedriver.exe"/>
+    <parameter name="username" value="vishal.rathore7@gmail.com"/>
+    <classes>
+      <class name="com.testng.AppTest">
+        <methods>
+          <include name="testClickHome"/>
+          <include name="testClickMessages"/>
+          <include name="setChromeExeFilePath"/>
+          <include name="logout"/>
+          <include name="testClickMessagesCont"/>
+          <include name="testClickProfile"/>
+        </methods>
+      </class> <!-- com.testng.AppTest -->
+    </classes>
+  </test> <!-- ToolsQA(failed) -->
+</suite> <!-- Failed suite [Suite] -->
