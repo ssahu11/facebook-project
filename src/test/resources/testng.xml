@@ -4,11 +4,11 @@
 
 	<test name="ToolsQA">
 
-		<parameter name="username" value=" " />
+		<parameter name="username" value="smrutisahu11@gmail.com" />
 
-		<parameter name="password" value=" " />
+		<parameter name="password" value="Jhuni@54321" />
 		
-		<parameter name="chromeExeFilePath" value="/chromedriver/chromedriver.exe" />
+		<parameter name="chromeExeFilePath" value="/c/chromedriver/chromedriver.exe" />
 
 		<classes>
 			<class name="com.testng.AppTest" />
