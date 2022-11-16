@@ -4,11 +4,11 @@
 
 	<test name="ToolsQA">
 
-		<parameter name="username" value="<your facebook username>" />
+		<parameter name="username" value=" " />
 
-		<parameter name="password" value="your facebook password" />
+		<parameter name="password" value=" " />
 		
-		<parameter name="chromeExeFilePath" value="< your chrome driver path chromedriver.exe>"></parameter>
+		<parameter name="chromeExeFilePath" value="/c/chromedriver/chromedriver.exe"</parameter>
 
 		<classes>
 			<class name="com.testng.AppTest" />
