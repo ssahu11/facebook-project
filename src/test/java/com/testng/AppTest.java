@@ -130,7 +130,7 @@ public class AppTest {
     @Test(priority = 6)
     public void logout() throws IOException {
         webdriver.switchTo().defaultContent();
-        WebElement dropdown = webdriver.findElement(By.id("userNavigationLabel"));
+        WebElement dropdown = webdriver.findElement(By.role("Navigation"));
         dropdown.click();
         webdriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         WebElement signOut = webdriver.findElement(By.partialLinkText("Log Out"));
