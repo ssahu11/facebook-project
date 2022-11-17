@@ -52,6 +52,7 @@ public class AppTest {
      * @param user facebook username
      * @param pass facebook password
      */
+    /**
     @Parameters({"username", "password"})
     @Test(priority = 1)
     public void login(String user, String pass) throws IOException {
@@ -66,10 +67,11 @@ public class AppTest {
         ScreenShotUtil.takeScreenShot(webdriver);
         password.sendKeys(Keys.ENTER);
     }
-
+*/
     /**
      * click on facebook profile
      */
+/**
     @Test(priority = 2)
     public void testClickProfile() throws IOException {
         WebElement profile = webdriver.findElement(By.className("_1qv9"));
@@ -79,10 +81,11 @@ public class AppTest {
         ScreenShotUtil.takeScreenShot(webdriver);
 
     }
-
+*/
     /**
      * click on facebook home
      */
+ /**
     @Test(priority = 3)
     public void testClickHome() throws IOException {
         WebElement profile = webdriver.findElement(By.id("u_0_c"));
@@ -92,10 +95,11 @@ public class AppTest {
         ScreenShotUtil.takeScreenShot(webdriver);
 
     }
-
+*/
     /**
      * click on message option
      */
+/**
     @Test(priority = 4)
     public void testClickMessages() throws IOException {
         WebElement profile = webdriver.findElement(By.name("mercurymessages"));
@@ -104,10 +108,11 @@ public class AppTest {
         // to take screenshot
         ScreenShotUtil.takeScreenShot(webdriver);
     }
-
+*/
     /**
      * click on show all messages
      */
+/**
     @Test(priority = 5)
     public void testClickMessagesCont() throws IOException {
         WebElement profile = webdriver.findElement(By.className("_4djt"));
@@ -117,10 +122,12 @@ public class AppTest {
         ScreenShotUtil.takeScreenShot(webdriver);
 
     }
-
+*/
     /**
      * Logout
      */
+    
+/**
     @Test(priority = 6)
     public void logout() throws IOException {
         webdriver.switchTo().defaultContent();
@@ -135,14 +142,17 @@ public class AppTest {
         signOut.click();
 
     }
+    */
 
     /**
      * Closing browser
      */
+    /**
     @Test(priority = 7)
     public void closeBrowser() {
         webdriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         webdriver.close();
     }
+    */
 
 }
