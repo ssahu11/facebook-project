@@ -32,6 +32,7 @@ class ScreenShotUtil {
         screenshotFile = ((TakesScreenshot) webdriver).getScreenshotAs(OutputType.FILE);
         String imageName = screenShotName + currentDate;
         String location = System.getProperty("user.dir") + "\\test-output\\screenshot\\" + imageName + ".png";
+        System.out.println("Current working directory in Java : " + location);
         FileUtils.copyFile(screenshotFile, new File(location));
     }
 
