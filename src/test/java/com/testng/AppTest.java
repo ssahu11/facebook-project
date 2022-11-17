@@ -74,7 +74,7 @@ public class AppTest {
     
     @Test(priority = 2)
     public void testClickProfile() throws IOException {
-        WebElement profile = webdriver.findElement(By.className("_1qv9"));
+        WebElement profile = webdriver.findElement(By.className("jsc_c_2h"));
         profile.click();
 
         // to take screenshot
