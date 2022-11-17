@@ -12,7 +12,7 @@
 		<parameter name="chromeExeFilePath" value="/chromedriver/chromedriver.exe" />
 
 		<classes>
-			<class name="com.testng.AppTest" />
+			<class name="java.com.testng.AppTest" />
 		</classes>
 
 	</test>
