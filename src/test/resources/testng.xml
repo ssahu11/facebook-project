@@ -3,11 +3,12 @@
 <suite name="Suite" parallel="false">
 
 	<test name="ToolsQA">
+		<!--
 
 		<parameter name="username" value="" />
 
 		<parameter name="password" value="" />
-		
+		-->
 		<parameter name="chromeExeFilePath" value="/chromedriver/chromedriver.exe" />
 
 		<classes>
