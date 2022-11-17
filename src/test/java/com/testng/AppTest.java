@@ -88,7 +88,7 @@ public class AppTest {
  
     @Test(priority = 3)
     public void testClickHome() throws IOException {
-        WebElement profile = webdriver.findElement(By.id("u_0_c"));
+        WebElement profile = webdriver.findElement(By.id("x1i10hfl xjbqb8w x6umtig x1b1mbwd xaqea5y xav7gou x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x87ps6o x1lku1pv x1a2a7pz x6s0dn4 x78zum5 xdt5ytf x5yr21d xl56j7k x1n2onr6 xh8yej3"));
         profile.click();
 
         // to take screenshot
