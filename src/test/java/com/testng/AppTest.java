@@ -39,7 +39,7 @@ public class AppTest {
     public void openBrowser() throws IOException {
         webdriver = new ChromeDriver(options);
         webdriver.manage().window().maximize();
-        webdriver.get("http://facebook.com");
+        webdriver.get("https://www.facebook.com/");
 
         // to take screenshot
         ScreenShotUtil.takeScreenShot(webdriver);
@@ -147,12 +147,11 @@ public class AppTest {
     /**
      * Closing browser
      */
-    /**
     @Test(priority = 7)
     public void closeBrowser() {
         webdriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         webdriver.close();
     }
-    */
+  
 
 }
